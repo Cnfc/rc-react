@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Built componenet librart & docs
+/lib
+/docs
+/config/componentData.js
+
+launch.json
+.idea
