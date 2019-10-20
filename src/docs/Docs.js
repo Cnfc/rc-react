@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navigation from './Navigation';
 import ComponentPage from './ComponentPage';
 import componentData from '../../config/componentData';
 
-class Docs extends Component {
+export default class Docs extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       route: window.location.hash.substr(1)
     };
   }
-
 
   componentDidMount() {
     window.addEventListener('hashchange', () => {
@@ -22,14 +21,11 @@ class Docs extends Component {
     const { route } = this.state;
     const component = route ? componentData.filter(component => component.name === route)[0] : componentData[0];
 
-
     return (
       <div>
         <Navigation components={componentData.map(component => component.name)} />
         <ComponentPage component={component} />
       </div>
-    );
+    )
   }
 }
-
-export default Docs;

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
+/**Message My */
 function HelloWorld({ message }) {
   return (
     <div>
@@ -11,7 +13,18 @@ function HelloWorld({ message }) {
 
 
 HelloWorld.propTypes = {
+  /** 
+   *  Message to display
+   *  */
   massage: PropTypes.string
 }
+
+
+
+HelloWorld.defaultProps = {
+  massage: "World"
+}
+
+
 
 export default HelloWorld;
