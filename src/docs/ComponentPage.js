@@ -5,7 +5,6 @@ import Props from './Props';
 
 const ComponentPage = ({ component }) => {
   const { name, description, props, examples } = component;
-  console.log(component)
 
   return (
     <div className="componentpage">
