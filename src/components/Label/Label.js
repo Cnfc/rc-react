@@ -10,7 +10,7 @@ function Label({ htmlFor, label, required }) {
   )
 }
 
-Label.propsTypes = {
+Label.propTypes = {
   /** HTML ID for associated input */
   htmlFor: PropTypes.string.isRequired,
 
