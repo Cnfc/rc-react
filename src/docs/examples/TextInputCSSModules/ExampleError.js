@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInputCSSModules from 'ps-react/TextInputCSSModules';
+import TextInputCSSModules from 'ps-react/lib/TextInputCSSModules';
 
 /** Required TextBox with error */
 export default class ExampleError extends React.Component {
@@ -9,10 +9,10 @@ export default class ExampleError extends React.Component {
         htmlId="example-optional"
         label="First Name"
         name="firstname"
-        onChange={() => {}}
+        onChange={() => { }}
         required
         error="First name is required."
-       />
+      />
     )
   }
 }
