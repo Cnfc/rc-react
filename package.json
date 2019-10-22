@@ -1,6 +1,6 @@
 {
   "name": "reusable-react-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "private": false,
   "engines": {
@@ -50,7 +50,6 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.10.0",
     "fs-extra": "0.30.0",
-    "highlight.js": "^9.10.0",
     "gh-pages": "^0.12.0",
     "highlight.js": "^9.10.0",
     "html-webpack-plugin": "2.24.0",
@@ -73,7 +72,7 @@
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.2"
   },
-  "homepage": "http://cnfc.github.io/ps-react/",
+  "homepage": "https://cnfc.github.io/reusable-react-lib/",
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
