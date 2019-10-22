@@ -1,6 +1,6 @@
 {
   "name": "reusable-react-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "private": true,
   "engines": {
@@ -16,7 +16,7 @@
     "toolkit"
   ],
   "dependencies": {
-    "react": "^15.5.4",
+    "react": "^15.6.2",
     "react-dom": "^15.5.4",
     "styled-components": "^1.4.5"
   },
