@@ -1,24 +1,6 @@
 {
-  "files": {
-    "main.css": "/rc-react/static/css/main.80ece9b7.chunk.css",
-    "main.js": "/rc-react/static/js/main.c1137dc4.chunk.js",
-    "main.js.map": "/rc-react/static/js/main.c1137dc4.chunk.js.map",
-    "runtime-main.js": "/rc-react/static/js/runtime-main.65b9a96f.js",
-    "runtime-main.js.map": "/rc-react/static/js/runtime-main.65b9a96f.js.map",
-    "static/css/2.72d72b5e.chunk.css": "/rc-react/static/css/2.72d72b5e.chunk.css",
-    "static/js/2.8bee383f.chunk.js": "/rc-react/static/js/2.8bee383f.chunk.js",
-    "static/js/2.8bee383f.chunk.js.map": "/rc-react/static/js/2.8bee383f.chunk.js.map",
-    "index.html": "/rc-react/index.html",
-    "precache-manifest.fc9b4822ca6fa871f3e735196406335c.js": "/rc-react/precache-manifest.fc9b4822ca6fa871f3e735196406335c.js",
-    "service-worker.js": "/rc-react/service-worker.js",
-    "static/css/2.72d72b5e.chunk.css.map": "/rc-react/static/css/2.72d72b5e.chunk.css.map",
-    "static/css/main.80ece9b7.chunk.css.map": "/rc-react/static/css/main.80ece9b7.chunk.css.map"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.65b9a96f.js",
-    "static/css/2.72d72b5e.chunk.css",
-    "static/js/2.8bee383f.chunk.js",
-    "static/css/main.80ece9b7.chunk.css",
-    "static/js/main.c1137dc4.chunk.js"
-  ]
+  "main.css": "static/css/main.08ddd5b1.css",
+  "main.css.map": "static/css/main.08ddd5b1.css.map",
+  "main.js": "static/js/main.b7686e52.js",
+  "main.js.map": "static/js/main.b7686e52.js.map"
 }
