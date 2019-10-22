@@ -1,9 +1,7 @@
 import React from 'react';
 import Label from 'ps-react/Label';
 
-
-/** Optional label */
-function ExampleHelloWorld() {
-  return <Label htmlFor='test' label="text" required />
+/** Required label */
+export default function ExampleRequired() {
+  return <Label htmlFor="test" label="test" required />
 }
-export default ExampleHelloWorld;

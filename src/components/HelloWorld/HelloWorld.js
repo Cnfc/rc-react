@@ -1,30 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
-/**Message My */
-function HelloWorld({ message }) {
-  return (
-    <div>
-      HelloWorld <h4>{message}</h4>
-    </div>
-  )
+/** A super lame component that says Hello with a custom message. */
+function HelloWorld({message}) {
+  return <div>Hello {message}</div>
 }
-
 
 HelloWorld.propTypes = {
-  /** 
-   *  Message to display
-   *  */
-  massage: PropTypes.string
-}
-
-
+  /** Message to display */
+  message: PropTypes.string
+};
 
 HelloWorld.defaultProps = {
-  massage: "World"
-}
-
-
+  message: 'World'
+};
 
 export default HelloWorld;

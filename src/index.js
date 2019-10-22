@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import Docs from './docs/Docs';
-import '../node_modules/highlight.js/styles/atom-one-dark.css'
+import './index.css';
+import '../node_modules/highlight.js/styles/ocean.css';
 
-ReactDOM.render(<Docs />, document.getElementById('root'));
+ReactDOM.render(
+  <Docs />,
+  document.getElementById('root')
+);
